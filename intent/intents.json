@@ -1,0 +1,82 @@
+{
+  "intents": [
+        {
+          "tag": "greeting",
+          "patterns": ["Xin chào", "Bạn ơi", "Chúc bạn ngày tốt lành","Shop ơi", "Hú Shop","Ê"],
+          "responses": ["Xin chào, tôi có thể giúp gì được cho bạn?","Chào bạn nhóe","Whatsup broo, tôi đây tôi đây" ],
+          "context_set": ""
+        },
+
+        {
+          "tag": "goodbye",
+          "patterns": ["Tạm biệt", "Tôi bận chút việc, tôi quay lại sau nhé","Bye bye shop"],
+          "responses": ["Tạm biệt, Lần sau ghé thăm mình tiếp nhé", "Tạm biệt, nhớ quay lại nha ^^"]
+        },
+        {
+          "tag": "thanks",
+          "patterns": ["Cảm ơn bạn", "Cảm ơn bạn đã tư vấn"],
+          "responses": ["Rất vui khi được tư vấn cho bạn"]
+        },
+        {
+          "tag": "question1",
+          "patterns":["Dùng laptop gaming làm các công việc văn phòng có hiệu quả?"
+                      ],
+          "responses":["Tất nhiên là được. Tuy nhiên, laptop gaming với hiệu suất cực kỳ cao do đó nó sẽ rất là nóng"]
+        },
+        {
+          "tag":"question2",
+          "patterns":["Laptop chơi game bao nhiêu RAM là đủ?", "Chọn laptop bao nhiêu RAM là chiến được game shop","RAM bao nhiêu là chiến được game"],
+          "responses":["8GB RAM trở lên là chơi game mượt rồi nhé","Thường thì 8GB RAM trở lên là chiến game ổn rồi nha"]
+        },
+        {
+          "tag":"question3",
+          "patterns":["Nên chọn laptop dùng AMD hay Intel?", "AMD hay Intel nhỉnh hơn"],
+          "responses":["Việc lựa chọn Intel hay AMD phục thuộc nhiều vào nhu cầu và túi tiền. Trong cùng một phân khúc giá thì các máy chạy AMD sẽ thường có trang bị nhỉnh hơn đôi chút so với Intel"]
+        },
+        {
+          "tag":"question4",
+          "patterns":["Macbook chơi game được không?","Tôi có thể chơi game trên Macbook chứ"],
+          "responses":["Chạy OS Windows trên MAC là chơi được nhé","Tất nhiên là được rồi. Bạn truy cập gamevui.vn thì k thiếu trò chơi nha :V"]
+        },
+        {
+          "tag":"question5",
+          "patterns":["Tôi nên chọn laptop phù hợp với mình ntn","Vậy chọn mua dòng, hãng laptop phù hợp nhất bằng cách nào?"],
+          "responses":["Bạn phải các định được những thứ sau: \"Đầu tiên là ví tiền, Tiếp theo là nhu cầu, Cuối cùng là cấu hình\"", " Bước 1: Bạn nhận định mình thích hãng laptop nào nhất, hoặc liệt kê ra các hãng laptop mà bạn đều thấy có vẻ ổn so vơi sở thích của các bạn. Bước 2: Bạn tìm kiếm trên google với cụm từ là : phân biệt các dòng + tên hãng laptop bạn đã chọn hoặc tương tự. Sau đó bạn sẽ tìm và đọc những bản so sánh và tìm các dòng phù hợp với nhu cầu của bạn" ]
+        },
+        {
+          "tag":"question6",
+          "patterns":["Chọn mua laptop hãng nào tốt?"],
+          "responses":["Hãng laptop nào cũng có điểm mạnh và điểm yếu riêng bạn nhé, tùy vào nhu cầu sử dụng mà bạn sẽ lựa chọn được hãng phù hợp với bản thân mình"]
+        },
+        {
+          "tag":"question7",
+          "patterns":["Có nên mua laptop cũ không?"],
+          "responses":["Việc mua laptop sẽ gặp khá nhiều rủi ro, bạn cần có kiến thức về các kỹ năng về máy tính hoặc người có kinh nghiệm tư vấn. Ngoài ra, cần tìm thêm cửa hàng uy tín và chế độ bảo hành rõ ràng"]
+        },
+        {
+          "tag":"question8",
+          "patterns":["Chọn cấu hình laptop như thế nào để học lập trình?","Tôi muốn chọn laptop để học lập trình"],
+          "responses":["RAM tối thiểu 8GB, CPU Core i5 trở lên, ổ cứng SSD, Ưu tiên card đồ hoạ rời nếu cần thiết, Mỏng nhẹ, dễ di chuyển, Thời lượng pin tối thiểu 4 tiếng","Tôi nghĩ bạn nên mua MAC"]
+        },
+        {
+          "tag":"question9",
+          "patterns":["Tôi muốn được tư vấn laptop"],
+          "responses":["Bạn muốn mua laptop với mục đích gì?"]
+        },
+        {
+          "tag":"question10",
+          "patterns":["Tôi muốn mua laptop để học design","Học design nên chọn laptop như thế nào"],
+          "responses":["Bạn nên chọn laptop dựa trên tiêu chí sau:\"CPU Core i5 trở lên, RAM từ 8GB trở lên, Máy có card đồ họa rời,Ổ cứng lưu trữ tích hợp SSD để cài Win và HDD để lưu trữ, Khả năng tản nhiệt cao vì ứng dụng chạy đồ họa rất nặng, Kích thước màn hình lớn, độ phân giải, Hỗ trợ đa dạng cổng kết nối\""]
+        },
+        {
+          "tag":"question10",
+          "patterns":["Tôi là dân văn phòng, tôi muốn chọn máy phù hợp với tôi","Tôi muốn mua máy để làm các tác vụ văn phòng"],
+          "responses":["Bạn nên chọn laptop dựa trên tiêu chí sau:\"Thiết Kế Gọn Nhẹ, Thuận Tiện Di Chuyển, Bàn Phím Độ Nhạy Cao, CPU Core i3 + Ram 4GB trở lên, Độ bảo mật cao, thời lượng pin dài, độ bền bỉ cao, phù hợp với túi tiền\""]
+        },
+        {
+          "tag":"question11",
+          "patterns":["Tôi chơi game thì nên chọn laptop nào", "Chọn laptop như thế nào để chơi game"],
+          "responses":["Bạn nên chọn laptop dựa trên tiêu chí sau:\"CPU Core i5 trở lên, RAM từ 8GB trở lên, Máy có card đồ họa rời,Ổ cứng lưu trữ SSD để cài Win , Khả năng tản nhiệt cao vì chơi game máy rất nóng, Kích thước màn hình lớn, tốc độ phản hồi màn hình nhanh và độ phân giải cao, Hỗ trợ đa dạng cổng kết nối\""]
+        }
+   ]
+}
