@@ -1,0 +1,3 @@
+- Install Anaconda follow link: https://www.anaconda.com/
+- Open Anaconda Promt and run command: conda create --name chatbot-backend --file <environment.yml path>
+- Create new Pycharm Project with conda environment has been created, copy all file in this repo to project dir and enjoy
